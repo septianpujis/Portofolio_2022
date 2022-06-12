@@ -55,27 +55,27 @@
             <div class="social-network">
               <ul class="soial-icons">
                 <li>
-                  <a href="https://www.facebook.com/septianpujisaputro/" target="_blank">
+                  <a href="https://www.facebook.com/septianpujisaputro/" target="_blank" title="Facebook">
                     <i class="fa fa-facebook"></i>
                   </a>
                 </li>
                 <li>
-                  <a href="https://twitter.com/septianpujipuji" target="_blank">
+                  <a href="https://twitter.com/septianpujipuji" target="_blank" title="Twitter">
                     <i class="fa fa-twitter"></i>
                   </a>
                 </li>
                 <li>
-                  <a href="https://www.linkedin.com/in/septian-puji-b93885135/" target="_blank">
+                  <a href="https://www.linkedin.com/in/septian-puji-b93885135/" target="_blank" title="Linkedin">
                     <i class="fa fa-linkedin"></i>
                   </a>
                 </li>
                 <li>
-                  <a href="mailto:septianpujipuji@gmail.com">
+                  <a href="mailto:septianpujipuji@gmail.com" title="Email">
                     <i class="fa fa-envelope" aria-hidden="true"></i>
                   </a>
                 </li>
                 <li>
-                  <a href="https://github.com/septianpujis" target="_blank">
+                  <a href="https://github.com/septianpujis" target="_blank" title="Github">
                     <i class="fa fa-github" aria-hidden="true"></i>
                   </a>
                 </li>
@@ -99,12 +99,12 @@
       <section class="section about-me" data-section="section1">
         <div class="container">
           <div class="section-heading">
-            <h2><?php echo $text['title_1']?></h2>
+            <h2 style="padding-bottom: 15px;"><?php echo $text['title_1']?></h2>
             <div class="line-dec"></div>
-            <h5>
+            <h5 style="padding-top: 15px;">
               Web and Mobile Full Stack Developer.
             </h5>
-            <span>
+            <span style="padding-bottom: 35px; padding-top:20px">
               <?php echo $text['about']; ?>
             </span>
           </div>
@@ -152,9 +152,9 @@
         </div>
       </section>
 
-      <section class="section" data-section="section5" style="min-height: 40px;">
+      <section class="section" data-section="section5" style="min-height: 40px; padding-bottom : 10px;">
         <div class="container">
-          <div class="section-heading">
+          <div class="section-heading" style="padding: 10px 0px 10px 0px;">
             <div class="container">
               <div class="Timeline">
                 <svg height="5" width="200">
@@ -173,7 +173,6 @@
                     </div>
                     <div class="eventTitle">Profile Created</div>
                   </div>
-                  <div class="eventAuthor">by Youri Nelson</div>
                   <svg height="20" width="20">
                     <circle cx="10" cy="11" r="5" fill="#004165" />
                   </svg>
@@ -231,43 +230,38 @@
       <section class="section my-services" data-section="section2">
         <div class="container">
           <div class="section-heading">
-            <h2><?php echo $text['title_2']?></h2>
+            <h2 style="padding-bottom: 15px;"><?php echo $text['title_2']?></h2>
             <div class="line-dec"></div>
+            <h5 style="padding-top: 15px;"> </h5>
           </div>
           <div class="row">
             <div class="col-md-6">
               <div class="service-item">
                 <div class="first-service-icon service-icon"></div>
-                <h4>Work With Framework</h4>
+                <h4><?php echo $text['good_1_title']?></h4>
                 <p>
-                  Isi Teks aja dulu
+                  <?php echo $text['good_1_text']?>
                 </p>
               </div>
             </div>
             <div class="col-md-6">
               <div class="service-item">
                 <div class="second-service-icon service-icon"></div>
-                <h4>Modular & Efficient Ideas</h4>
-                <p>
-                  Isi Teks dulu
-                </p>
+                <h4><?php echo $text['good_2_title']?></h4>
               </div>
             </div>
             <div class="col-md-6">
               <div class="service-item">
                 <div class="third-service-icon service-icon"></div>
-                <h4>Work With API Integration</h4>
-                <p>
-                  Isi Teks
-                </p>
+                <h4><?php echo $text['good_3_title']?></h4>
               </div>
             </div>
             <div class="col-md-6">
               <div class="service-item">
                 <div class="fourth-service-icon service-icon"></div>
-                <h4>Full Stack</h4>
+                <h4><?php echo $text['good_4_title']?></h4>
                 <p>
-                  Isi Teks
+                  <?php echo $text['good_4_text']?>
                 </p>
               </div>
             </div>
@@ -278,10 +272,10 @@
       <section class="section my-work" data-section="section3">
         <div class="container">
           <div class="section-heading">
-            <h2><?php echo $text['title_3']?></h2>
+            <h2 style="padding-bottom: 15px;"><?php echo $text['title_3']?></h2>
             <div class="line-dec"></div>
-            <span>
-              Berikut beberapa project yang pernah/sedang saya kerjakan. Project yang saya sebutkan berikut merupakan project yang saya kerjakan sendiri.
+            <span style="padding-top: 15px;">
+              <?php echo $text['project_subtitle']?>
             </span>
           </div>
           <div class="row">
@@ -387,10 +381,10 @@
       <section class="section contact-me" data-section="section4">
         <div class="container">
           <div class="section-heading">
-            <h2><?php echo $text['title_4']?></h2>
+            <h2 style="padding-bottom: 15px;"><?php echo $text['title_4']?></h2>
             <div class="line-dec"></div>
-            <span>
-              You have any question about me? Send it directly here. (It's work)
+            <span style="padding-top: 15px;">
+              <?php echo $text['contact_me']?>
             </span>
           </div>
           <div class="row">
@@ -454,7 +448,7 @@
                     <div class="col-md-12">
                       <fieldset>
                         <button type="submit" id="form-submit" class="button">
-                          Send Message
+                          <?php echo $text['btn_send']?>
                         </button>
                       </fieldset>
                     </div>

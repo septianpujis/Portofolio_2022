@@ -9,6 +9,14 @@
     "pengalaman_kerja_text" : "During my work, I participated in web/mobile projects and was assigned to work on the <b>front end</b>, <b>CRUD Logic</b>, and <b>integration of payment api</b> using the Low Code platform Outsystems.",
     "sarjana_judul" : "Bachelor of Computer (S.Kom.) Syarif Hidayatullah State Islamic University Jakarta Majoring in Informatics Engineering",
     "sarjana_tanggal" : "September 2016 - February 2021",
-    "sarjana_text" : "Graduated with GPA 3.77/4.00 and a Final Project (Thesis) entitled \"Virtual Fitting Room Application Using Skeleton Tracking and Euclidean Distance Methods\" discusses the development of a <b>Mobile application</b> that can recommend clothing sizes on user photos. "
-
+    "sarjana_text" : "Graduated with GPA 3.77/4.00 and a Final Project (Thesis) entitled \"Virtual Fitting Room Application Using Skeleton Tracking and Euclidean Distance Methods\" discusses the development of a <b>Mobile application</b> that can recommend clothing sizes on user photos. ",
+    "project_subtitle" : "Here are some projects that I have been/are currently working on. The project I mentioned below is a project that I did myself.",
+    "good_1_title" : "Work with Framework",
+    "good_1_text" : "Code Igniter 3 dan 4, Laravel 8, Django 2.2, Flask, Outsystems",
+    "good_2_title" : "Work with Modular & Scalable Ideas",
+    "good_3_title" : "Work with API Integration",
+    "good_4_title" : "Full Stack",
+    "good_4_text" : "Front End (HTML, CSS, JS), Back End (Java, PHP, Python, Database DDL / DML)",
+    "contact_me" : "You have any question about me? Send it directly here. (It's work)",
+    "btn_send" : "Send Message"
 }

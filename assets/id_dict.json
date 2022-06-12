@@ -9,5 +9,15 @@
     "pengalaman_kerja_text" : "Selama bekerja, saya ikut serta dalam pengerjaan project web/mobile dan ditugaskan pada pengerjaan <b>front end</b>, <b>CRUD Logic</b>, dan <b>integrasi terhadap payment api</b> menggunakan Low Code platform Outsystems",
     "sarjana_judul" : "Sarjana Komputer (S.Kom.) Universitas Islam Negeri Syarif Hidayatullah Jakarta Jurusan Teknik Informatika",
     "sarjana_tanggal" : "September 2016 - Februari 2021",
-    "sarjana_text" : "Lulus dengan GPA 3.77/4.00 dan Tugas Akhir (Skripsi) Berjudul \"Aplikasi Virtual Fitting Room Menggunakan Metode Skeleton Tracking dan Euclidean Distance\" membahas pengembangan <b>aplikasi Mobile</b> yang dapat merekomendasikan ukuran pakaian pada foto pengguna. "
+    "sarjana_text" : "Lulus dengan GPA 3.77/4.00 dan Tugas Akhir (Skripsi) Berjudul \"Aplikasi Virtual Fitting Room Menggunakan Metode Skeleton Tracking dan Euclidean Distance\" membahas pengembangan <b>aplikasi Mobile</b> yang dapat merekomendasikan ukuran pakaian pada foto pengguna. ",
+    "project_subtitle" : "Berikut beberapa project yang pernah/sedang saya kerjakan. Project yang saya sebutkan berikut merupakan project yang saya kerjakan sendiri.",
+    "good_1_title" : "Mendevelop menggunakan Framework",
+    "good_1_text" : "Code Igniter 3 dan 4, Laravel 8, Django 2.2, Flask, Outsystems",
+    "good_2_title" : "Berpikir secara modular dan dengan skalabilitas",
+    "good_3_title" : "Pengalaman dalam API Integration",
+    "good_4_title" : "Full Stack",
+    "good_4_text" : "Front End (HTML, CSS, JS), Back End (Java, PHP, Python, Database DDL / DML)",
+    "contact_me" : "Kirim pertanyaan lewat form dibawah ini (Balasan dikirim lewat email yang diinput)",
+    "btn_send" : "Kirim Pesan"
+    
 }
