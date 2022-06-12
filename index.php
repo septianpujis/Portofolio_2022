@@ -18,6 +18,9 @@
     <link rel="stylesheet" href="assets/css/owl.css" />
     <link rel="stylesheet" href="assets/css/lightbox.css" />
     <link rel="stylesheet" href="assets/css/timeline.css" />
+
+    <!-- Language JSON -->
+    <?php include 'lang_config.php';?>
   </head>
 
   <body>
@@ -28,8 +31,22 @@
         <div id="menu" class="menu">
           <i class="fa fa-times" id="menu-close"></i>
           <div class="container">
-            <div class="image">
-              <a href="#"><img src="assets/images/author-image.jpg" alt="Profile Picture" /></a>
+            <div class="social-network">
+              <ul class="soial-icons">
+                <li>
+                  <a href="?lang=id">
+                    <b>ID</b>
+                  </a>
+                </li>
+                <li>
+                  <a href="?lang=en">
+                    <b>EN</b>
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div class="image" style="margin-top : 20px;">
+              <img src="assets/images/author-image.jpg" alt="Profile Picture" />
             </div>
             <div class="author-content">
               <h4>Septian Puji</h4>
@@ -66,10 +83,10 @@
             </div>
             <nav class="main-nav" role="navigation">
               <ul class="main-menu">
-                <li><a href="#section1">About Me</a></li>
-                <li><a href="#section2">What I'm good at</a></li>
-                <li><a href="#section3">My Work</a></li>
-                <li><a href="#section4">Contact Me</a></li>
+                <li><a href="#section1"><?php echo $text['title_1']?></a></li>
+                <li><a href="#section2"><?php echo $text['title_2']?></a></li>
+                <li><a href="#section3"><?php echo $text['title_3']?></a></li>
+                <li><a href="#section4"><?php echo $text['title_4']?></a></li>
               </ul>
             </nav>
             <div class="copyright-text">
@@ -82,7 +99,7 @@
       <section class="section about-me" data-section="section1">
         <div class="container">
           <div class="section-heading">
-            <h2>About Me</h2>
+            <h2><?php echo $text['title_1']?></h2>
             <div class="line-dec"></div>
             <h5>
               Web and Mobile Full Stack Developer.
@@ -139,8 +156,6 @@
       <section class="section" data-section="section5" style="min-height: 40px;">
         <div class="container">
           <div class="section-heading">
-            <h2>Timeline</h2>
-            <div class="line-dec"></div>
             <div class="container">
               <div class="Timeline">
                 <svg height="5" width="200">
@@ -217,7 +232,7 @@
       <section class="section my-services" data-section="section2">
         <div class="container">
           <div class="section-heading">
-            <h2>What I'm good at?</h2>
+            <h2><?php echo $text['title_2']?></h2>
             <div class="line-dec"></div>
           </div>
           <div class="row">
@@ -264,7 +279,7 @@
       <section class="section my-work" data-section="section3">
         <div class="container">
           <div class="section-heading">
-            <h2>My Work</h2>
+            <h2><?php echo $text['title_3']?></h2>
             <div class="line-dec"></div>
             <span>
               Berikut beberapa project yang pernah/sedang saya kerjakan. Project yang saya sebutkan berikut merupakan project yang saya kerjakan sendiri.
@@ -373,7 +388,7 @@
       <section class="section contact-me" data-section="section4">
         <div class="container">
           <div class="section-heading">
-            <h2>Contact Me</h2>
+            <h2><?php echo $text['title_4']?></h2>
             <div class="line-dec"></div>
             <span>
               You have any question about me? Send it directly here. (It's work)
