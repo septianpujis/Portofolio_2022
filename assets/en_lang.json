@@ -2,5 +2,13 @@
     "title_1" : "About Me",
     "title_2" : "What I'm good at",
     "title_3" : "My Work",
-    "title_4" : "Contact Me"
+    "title_4" : "Contact Me",
+    "about" : "I like activities that require logical thinking, creativity, and are not repetitive. I believe my strengths are in systematic and modular work, while my weaknesses are in communication skills, especially negotiation and promotion",
+    "pengalaman_kerja_judul" : "1 Year Working as Web/Android Consultant",
+    "pengalaman_kerja_tanggal" : "May 2021 - July 2022",
+    "pengalaman_kerja_text" : "During my work, I participated in web/mobile projects and was assigned to work on the <b>front end</b>, <b>CRUD Logic</b>, and <b>integration of payment api</b> using the Low Code platform Outsystems.",
+    "sarjana_judul" : "Bachelor of Computer (S.Kom.) Syarif Hidayatullah State Islamic University Jakarta Majoring in Informatics Engineering",
+    "sarjana_tanggal" : "September 2016 - February 2021",
+    "sarjana_text" : "Graduated with GPA 3.77/4.00 and a Final Project (Thesis) entitled \"Virtual Fitting Room Application Using Skeleton Tracking and Euclidean Distance Methods\" discusses the development of a <b>Mobile application</b> that can recommend clothing sizes on user photos. "
+
 }

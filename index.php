@@ -105,27 +105,24 @@
               Web and Mobile Full Stack Developer.
             </h5>
             <span>
-              I like activities that require logical thinking, creativity, and are not repetitive. I believe my strengths are in systematic and modular work, while my weaknesses are in communication skills, especially negotiation and promotion
+              <?php echo $text['about']; ?>
             </span>
           </div>
           <div class="left-image-post">
             <div class="row">
               <div class="col-md-6">
                 <div class="left-image">
-                  <img src="assets/images/left-image.jpg" alt="" />
+                  <img src="assets/images/left-image.jpg" alt="Evotech Team" />
                   <!-- Gambar ganti foto evotech aja, harusnya gapapa-->
                 </div>
               </div>
               <div class="col-md-6">
                 <div class="right-text">
-                  <p style="font-size:1.5em; margin:0px;"><b>1 Tahun Pengalaman Di Perusahaan Software House</b></p>
-                  <p>Mei 2021 - Juli 2022</p>
-                  <p>
-                    Pengalaman 1 tahun mendevelop 2 Web/Mobile Project. Saya ikut serta dalam mendesain database, mendevelop logic, dan juga mengintegrasikan project ke sistem perbankan (QRIS dan Virtual Account)
-                  </p>
+                  <p style="font-size:1.5em; margin:0px;"><b><? echo $text['pengalaman_kerja_judul']?></b></p>
+                  <p><?php echo $text['pengalaman_kerja_tanggal']?></p>
+                  <p><?php echo $text['pengalaman_kerja_text']?></p>
                   <div class="white-button">
                     <a href="https://evotech.co.id/" target="_blank">Read More about Evotech</a>
-                    <!-- Kalo dibuka ada timeline kerja 1 tahun, dibawahnya ada magang di internal media, tulis project apa aja yang udah dikerjan-->
                   </div>
                 </div>
               </div>
@@ -135,11 +132,11 @@
             <div class="row">
               <div class="col-md-6">
                 <div class="left-text">
-                  <p style="font-size:1.5em; margin:0px;"><b>Lulusan Sarjana Universitas Islam Negeri Syarif Hidayatullah Jakarta Jurusan Teknik Informatika</b></p>
-                  <p>September 2016 - Februari 2021</p>
-                  <p>
-                    Tugas Akhir (Skripsi) yang saya lakukan Berjudul "Aplikasi Virtual Fitting Room Menggunakan Metode Skeleton Tracking dan Euclidean Distance" membahas pengembangan aplikasi Mobile yang dapat merekomendasikan ukuran pakaian pada foto pengguna.
+                  <p style="font-size:1.5em; margin:0px;">
+                    <b><?php $text['sarjana_judul']?></b>
                   </p>
+                  <p><?php $text['sarjana_tanggal']?></p>
+                  <p><?php $text['sarjana_text']?></p>
                 </div>
               </div>
               <div class="col-md-6">
