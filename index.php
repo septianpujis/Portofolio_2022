@@ -118,7 +118,9 @@
               </div>
               <div class="col-md-6">
                 <div class="right-text">
-                  <p style="font-size:1.5em; margin:0px;"><b><? echo $text['pengalaman_kerja_judul']?></b></p>
+                  <p style="font-size:1.5em; margin:0px;">
+                    <b><? echo $text['pengalaman_kerja_judul']?></b>
+                  </p>
                   <p><?php echo $text['pengalaman_kerja_tanggal']?></p>
                   <p><?php echo $text['pengalaman_kerja_text']?></p>
                   <div class="white-button">
@@ -133,10 +135,10 @@
               <div class="col-md-6">
                 <div class="left-text">
                   <p style="font-size:1.5em; margin:0px;">
-                    <b><?php $text['sarjana_judul']?></b>
+                    <b><?php echo $text['sarjana_judul']?></b>
                   </p>
-                  <p><?php $text['sarjana_tanggal']?></p>
-                  <p><?php $text['sarjana_text']?></p>
+                  <p><?php echo $text['sarjana_tanggal']?></p>
+                  <p><?php echo $text['sarjana_text']?></p>
                 </div>
               </div>
               <div class="col-md-6">
