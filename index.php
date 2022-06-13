@@ -152,81 +152,22 @@
         </div>
       </section>
 
-      <section class="section" data-section="section5" style="min-height: 40px; padding-bottom : 10px;">
-        <div class="container">
-          <div class="section-heading" style="padding: 10px 0px 10px 0px;">
-            <div class="container">
-              <div class="Timeline">
-                <svg height="5" width="200">
-                  <line x1="0" y1="0" x2="200" y2="0" style="stroke:#004165;stroke-width:5" />
-                  Sorry, your browser does not support inline SVG.
-                </svg>
-              
-                <div class="event1">
-                  <div class="event1Bubble">
-                    <div class="eventTime">
-                      <div class="DayDigit">02</div>
-                      <div class="Day">
-                         Wednesday
-                        <div class="MonthYear">february 2016</div>
-                      </div>
-                    </div>
-                    <div class="eventTitle">Profile Created</div>
-                  </div>
-                  <svg height="20" width="20">
-                    <circle cx="10" cy="11" r="5" fill="#004165" />
-                  </svg>
-                  <div class="time">9 : 27 AM</div>
-                  
-                </div>
-                
-                <svg height="5" width="300">
-                  <line x1="0" y1="0" x2="300" y2="0" style="stroke:#004165;stroke-width:5" />
-                  Sorry, your browser does not support inline SVG.
-                </svg>
-              
-                <div class="event2">
-                  
-                  <div class="event2Bubble">
-                    <div class="eventTime">
-                      <div class="DayDigit">17</div>
-                      <div class="Day">
-                         Thursday
-                        <div class="MonthYear">April 2016</div>
-                      </div>
-                    </div>
-                    <div class="eventTitle">Phone Interview</div>
-                  </div>
-                  <div class="event2Author">by Tom Eggleston</div>
-                    <svg height="20" width="20">
-                      <circle cx="10" cy="11" r="5" fill="#004165" />
-                    </svg>
-                  <div class="time2">1 : 32 PM</div>
-                </div>
-                
-                <svg height="5" width="50">
-                  <line x1="0" y1="0" x2="50" y2="0" style="stroke:#004165;stroke-width:5" />
-                  Sorry, your browser does not support inline SVG.
-                </svg>
-
-                
-              <svg height="5" width="50">
-                <line x1="0" y1="0" x2="50" y2="0" style="stroke:#004165;stroke-width:5" /> 
-              </svg>
-              <svg height="20" width="42">
-                <line x1="1" y1="0" x2="1" y2="20" style="stroke:#004165;stroke-width:2" /> 
-                <circle cx="11" cy="10" r="3" fill="#004165" />  
-                <circle cx="21" cy="10" r="3" fill="#004165" />  
-                <circle cx="31" cy="10" r="3" fill="#004165" />    
-                <line x1="41" y1="0" x2="41" y2="20" style="stroke:#004165;stroke-width:2" /> 
-              </svg>  
-                
-              </div>
-            </div>
+      <section class="section" data-section="section5" style="height: auto; margin: 30px 0px 10px 0px; ">
+        <div class="container" style="height : 300px; ">
+          <div class="section-heading" style="overflow-x : scroll; height : 100%; ">
+            <ul class="timeline">
+              <li data-year="2019" data-text="Lorem ipsum dolor sit amet, consectetur."></li>
+              <li data-year="2020" data-text="Lorem ipsum dolor sit amet, consectetur."></li>
+              <li data-year="2020" data-text="Lorem ipsum dolor sit amet, consectetur."></li>
+              <li data-year="2021" data-text="Lorem ipsum dolor sit amet, consectetur."></li>
+              <li data-year="2022" data-text="Lorem ipsum dolor sit amet, consectetur."></li>
+              <li data-year="2021" data-text="Lorem ipsum dolor sit amet, consectetur."></li>
+              <li data-year="2022" data-text="Lorem ipsum dolor sit amet, consectetur."></li>
+            </ul>
           </div>
         </div>
       </section>
-
+      
       <section class="section my-services" data-section="section2">
         <div class="container">
           <div class="section-heading">
@@ -471,7 +412,6 @@
     <script src="assets/js/owl-carousel.js"></script>
     <script src="assets/js/lightbox.js"></script>
     <script src="assets/js/custom.js"></script>
-    <script src="assets/js/timeline.js"></script>
     <script>
       $(".main-menu li:first").addClass("active");
 
