@@ -30,6 +30,7 @@
 	position: absolute;
 	left: 50%;
 	transform: translateX(-50%);
+	width: 800%;
 }
 
 .timeline li:nth-child(odd):before {
