@@ -18,6 +18,15 @@
     "good_4_title" : "Full Stack",
     "good_4_text" : "Front End (HTML, CSS, JS), Back End (Java, PHP, Python, Database DDL / DML)",
     "contact_me" : "Kirim pertanyaan lewat form dibawah ini (Balasan dikirim lewat email yang diinput)",
-    "btn_send" : "Kirim Pesan"
-    
+    "btn_send" : "Kirim Pesan",
+    "timeline_year_1" : "Okt 2019",
+    "timeline_year_2" : "Feb 2020",
+    "timeline_year_3" : "Feb 2021",
+    "timeline_year_4" : "Mei 2021",
+    "timeline_year_5" : "Jul 2022",
+    "timeline_info_1" : "Mulai kerja magang di CV. Internal Media",
+    "timeline_info_2" : "Selesai kerja magang di CV. Internal Media",
+    "timeline_info_3" : "Lulus dari UIN Jakarta",
+    "timeline_info_4" : "Mulai kerja kontrak di PT. Evotech Distribusi",
+    "timeline_info_5" : "Selesai Kerja di PT. Evotech Distribusi"
 }

@@ -156,13 +156,11 @@
         <div class="container" style="height : 300px; ">
           <div class="section-heading" style="overflow-x : scroll; height : 100%; ">
             <ul class="timeline">
-              <li data-year="2019" data-text="Lorem ipsum dolor sit amet, consectetur."></li>
-              <li data-year="2020" data-text="Lorem ipsum dolor sit amet, consectetur."></li>
-              <li data-year="2020" data-text="Lorem ipsum dolor sit amet, consectetur."></li>
-              <li data-year="2021" data-text="Lorem ipsum dolor sit amet, consectetur."></li>
-              <li data-year="2022" data-text="Lorem ipsum dolor sit amet, consectetur."></li>
-              <li data-year="2021" data-text="Lorem ipsum dolor sit amet, consectetur."></li>
-              <li data-year="2022" data-text="Lorem ipsum dolor sit amet, consectetur."></li>
+              <li data-year="<?php echo $text['timeline_year_1']?>" data-text="<?php echo $text['timeline_info_1']?>"></li>
+              <li data-year="<?php echo $text['timeline_year_2']?>" data-text="<?php echo $text['timeline_info_2']?>"></li>
+              <li data-year="<?php echo $text['timeline_year_3']?>" data-text="<?php echo $text['timeline_info_3']?>"></li>
+              <li data-year="<?php echo $text['timeline_year_4']?>" data-text="<?php echo $text['timeline_info_4']?>"></li>
+              <li data-year="<?php echo $text['timeline_year_5']?>" data-text="<?php echo $text['timeline_info_5']?>"></li>
             </ul>
           </div>
         </div>
