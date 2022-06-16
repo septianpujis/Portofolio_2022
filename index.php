@@ -24,11 +24,6 @@
   </head>
 
   <body>
-    <!-- Scripts -->
-    <!-- Bootstrap core JavaScript -->
-    <script src="js/jquery/jquery.min.js"></script>
-    <script src="js/bootstrap/js/bootstrap.bundle.min.js"></script>
-
     <div id="page-wraper">
       <!-- Sidebar Menu -->
       <div class="responsive-nav">
@@ -223,10 +218,43 @@
             </span>
           </div>
           <div class="row">
+            
+          <div class="row">
+            <div class="col-md-6">
+              <div class="service-item">
+                <div class="first-service-icon service-icon"></div>
+                <h4><?php echo $text['good_1_title']?></h4>
+                <p>
+                  <?php echo $text['good_1_text']?>
+                </p>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="service-item">
+                <div class="second-service-icon service-icon"></div>
+                <h4><?php echo $text['good_2_title']?></h4>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="service-item">
+                <div class="third-service-icon service-icon"></div>
+                <h4><?php echo $text['good_3_title']?></h4>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="service-item">
+                <div class="fourth-service-icon service-icon"></div>
+                <h4><?php echo $text['good_4_title']?></h4>
+                <p>
+                  <?php echo $text['good_4_text']?>
+                </p>
+              </div>
+            </div>
+          </div>
             <div class="isotope-wrapper">
               <form class="isotope-toolbar">
                 <label>
-                  <input type="radio" data-type="*" checked="" name="isotope-filter"/>
+                  <input type="radio" data-type="" checked="" name="isotope-filter"/>
                   <span>all</span>
                 </label>
                 <label>
@@ -406,6 +434,10 @@
 
     </div>
 
+    <!-- Scripts -->
+    <!-- Bootstrap core JavaScript -->
+    <script src="js/jquery/jquery.min.js"></script>
+    <script src="js/bootstrap/js/bootstrap.bundle.min.js"></script>
     <script src="assets/js/isotope.min.js"></script>
     <script src="assets/js/owl-carousel.js"></script>
     <script src="assets/js/lightbox.js"></script>
