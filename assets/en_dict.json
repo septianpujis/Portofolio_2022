@@ -28,5 +28,7 @@
     "timeline_info_2" : "finished internship in CV. internal media",
     "timeline_info_3" : "Graduated from UIN Jakarta",
     "timeline_info_4" : "Start contract work at PT. Evotech Distribusi",
-    "timeline_info_5" : "Finished contract work at PT. Evotech Distribusi"
+    "timeline_info_5" : "Finished contract work at PT. Evotech Distribusi",
+    "project_1_text" : "Sistem Perpustakaan Digital. <br> Dibangun menggunakan aplikasi Outsystems, Low-Code Development Platform for web/mobile<br>Untuk live demo, klik <a href='https://personal-i6nfgh8p.outsystemscloud.com/SiPusDi/' target='_blank'>Link Berikut</a>",
+    "project_2_text" : "Latihan Pemrograman pembuatan Website Sistem Perpustakaan dengan Framework Laravel 8 (PHP).<br/>Diagram Database, Diagram Usecase, dan Bisnis Rule terlampir pada dokumen berikut: <a href='bit.ly/SipusdiRequirement'>Dokumen Requirement</a>"
 }

@@ -221,7 +221,7 @@
             <div class="isotope-wrapper">
               <form class="isotope-toolbar">
                 <label>
-                  <input type="radio" data-type="" checked="" name="isotope-filter"/>
+                  <input type="radio" data-type="*" checked="" name="isotope-filter" checked/>
                   <span>all</span>
                 </label>
                 <label>
