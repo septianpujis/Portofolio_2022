@@ -218,39 +218,6 @@
             </span>
           </div>
           <div class="row">
-            
-          <div class="row">
-            <div class="col-md-6">
-              <div class="service-item">
-                <div class="first-service-icon service-icon"></div>
-                <h4><?php echo $text['good_1_title']?></h4>
-                <p>
-                  <?php echo $text['good_1_text']?>
-                </p>
-              </div>
-            </div>
-            <div class="col-md-6">
-              <div class="service-item">
-                <div class="second-service-icon service-icon"></div>
-                <h4><?php echo $text['good_2_title']?></h4>
-              </div>
-            </div>
-            <div class="col-md-6">
-              <div class="service-item">
-                <div class="third-service-icon service-icon"></div>
-                <h4><?php echo $text['good_3_title']?></h4>
-              </div>
-            </div>
-            <div class="col-md-6">
-              <div class="service-item">
-                <div class="fourth-service-icon service-icon"></div>
-                <h4><?php echo $text['good_4_title']?></h4>
-                <p>
-                  <?php echo $text['good_4_text']?>
-                </p>
-              </div>
-            </div>
-          </div>
             <div class="isotope-wrapper">
               <form class="isotope-toolbar">
                 <label>
@@ -271,7 +238,7 @@
                   <figure class="snip1321">
                     <img src="assets/images/portofolio-01-T.PNG" alt="Project-01-Sipusdi" />
                     <figcaption>
-                      <a href="assets/images/portfolio-01.gif" data-lightbox="image-1" data-title="Sistem Perpustakaan Digital | dibangun menggunakan aplikasi Outsystems, Low-Code Development Platform for web/mobile<br>Untuk live demo, klik <a href='https://personal-i6nfgh8p.outsystemscloud.com/SiPusDi/' target='_blank'>Link Berikut</a>">
+                      <a href="assets/images/portfolio-01.gif" data-lightbox="image-1" data-title="<?php echo $text['project_1_text']?>">
                         <i class="fa fa-search"></i>
                       </a>
                       <h4>Outsystems</h4>
@@ -280,15 +247,15 @@
                   </figure>
                 </div>
 
-                <div class="isotope-item" data-type="mobile">
+                <div class="isotope-item" data-type="web">
                   <figure class="snip1321">
                     <img src="assets/images/portfolio-02.jpg" alt="sq-sample26"/>
                     <figcaption>
-                      <a href="assets/images/portfolio-02.jpg" data-lightbox="image-2" data-title="Caption images <a href='http://www.twitter.com'>AAAA</a>" data-alt="Altttttt">
+                      <a href="https://i.imgur.com/zrsGOHF.gif" data-lightbox="image-2" data-title="<?php echo $text['project_2_text']?>" data-alt="Project 02">
                         <i class="fa fa-search"></i>
                       </a>
-                      <h4>Second Title</h4>
-                      <span>please tell your friends</span>
+                      <h4>Laravel 8</h4>
+                      <span>PHP Web Framework</span>
                     </figcaption>
                   </figure>
                 </div>
@@ -300,8 +267,8 @@
                       <a href="assets/images/portfolio-03.jpg" data-lightbox="image-3" data-title="Caption">
                         <i class="fa fa-search"></i>
                       </a>
-                      <h4>Item Third</h4>
-                      <span>customize anything</span>
+                      <h4>Project Under Development</h4>
+                      <!-- <span>customize anything</span> -->
                     </figcaption>
                   </figure>
                 </div>
@@ -313,8 +280,8 @@
                       <a href="assets/images/portfolio-04.jpg" data-lightbox="image-4" data-title="Caption">
                         <i class="fa fa-search"></i>
                       </a>
-                      <h4>Item Fourth</h4>
-                      <span>Re-distribution not allowed</span>
+                      <h4>Project Under Development</h4>
+                      <!-- <span>customize anything</span> -->
                     </figcaption>
                   </figure>
                 </div>
@@ -326,8 +293,8 @@
                       <a href="assets/images/portfolio-05.jpg" data-lightbox="image-5" data-title="Caption" >
                         <i class="fa fa-search"></i>
                       </a>
-                      <h4>Fifth Awesome</h4>
-                      <span>Ut sollicitudin risus</span>
+                      <h4>Project Under Development</h4>
+                      <!-- <span>customize anything</span> -->
                     </figcaption>
                   </figure>
                 </div>
@@ -339,8 +306,8 @@
                       <a href="assets/images/portfolio-06.jpg" data-lightbox="image-6" data-title="Caption">
                         <i class="fa fa-search"></i>
                       </a>
-                      <h4>Awesome Sixth</h4>
-                      <span>Donec eget massa ante</span>
+                      <h4>Project Under Development</h4>
+                      <!-- <span>customize anything</span> -->
                     </figcaption>
                   </figure>
                 </div>
