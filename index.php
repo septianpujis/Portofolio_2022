@@ -152,7 +152,7 @@
         </div>
       </section>
 
-      <section class="section" data-section="section5" style="height: auto; margin: 30px 0px 10px 0px; ">
+      <section class="section" data-section="section5" style="padding-bottom: 30px; height: auto; margin: 30px 0px 10px 0px; ">
         <div class="container" style="height : 300px; ">
           <div class="section-heading" style="overflow-x : scroll; height : 100%; ">
             <ul class="timeline">

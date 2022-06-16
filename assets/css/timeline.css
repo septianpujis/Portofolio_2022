@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Palanquin+Dark:400,600');
 
 .timeline {
-	width:1200px;
+	width: 950px;
 	height: 20px;
 	list-style: none;
 	text-align: justify;
@@ -47,6 +47,7 @@
 	position: absolute;
 	left: 50%;
 	transform: translateX(-50%);
+	width: 800%;
 }
 
 .timeline li:nth-child(odd):after {
