@@ -30,5 +30,6 @@
     "timeline_info_4" : "Start contract work at PT. Evotech Distribusi",
     "timeline_info_5" : "Finished contract work at PT. Evotech Distribusi",
     "project_1_text" : "Digital Library System. <br> Built using Outsystems app, Low-Code Development Platform for web/mobile<br>For live demo, click the following <a href='https://personal-i6nfgh8p.outsystemscloud.com/SiPusDi/' target='_blank'>link</a>",
-    "project_2_text" : "Library Management System Website Development Programming Exercise with Laravel 8 Framework (PHP).<br/>Database Diagram, Usecase Diagram, and Business Rule attached to the following Link:<a href='bit.ly/SipusdiRequirement'>Document LMS</a>"
+    "project_2_text" : "Library Management System Website Development Programming Exercise with Laravel 8 Framework (PHP).<br/>Database Diagram, Usecase Diagram, and Business Rule attached to the following Link:<a href='bit.ly/SipusdiRequirement'>Document LMS</a>",
+    "project_3_text" : "Golang Programming Exercise. Creating a Mailing Systems Panel Website for this portfolio page."
 }
