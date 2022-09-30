@@ -13,7 +13,7 @@ body {
 }
 
 #page-wraper {
-    background: black;
+    background: linear-gradient(135deg, rgba(2,0,36,1) 5%, rgba(3,131,129,1) 69%, rgba(0,157,138,1) 100%);
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -494,14 +494,15 @@ section.my-work .section-heading {
     margin-right: 15px;
     padding-bottom: 3px;
     font-size: 15px;
-    font-weight: 700;
+    font-weight: 300;
     border-bottom: 2px solid transparent;
     transform: ease-in-out 0.5s;
     cursor: pointer;
 }
 
 .isotope-toolbar input[type="radio"]:checked + span {
-    color: #a43f49;
+    /* color: #a43f49; */
+    font-weight: 800;
     border-bottom: 2px solid #a43f49;
 }
 
@@ -813,3 +814,18 @@ section.contact-me {
         margin-bottom: 20px;
     }
 }
+
+#contact ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: rgb(219, 219, 219);
+    opacity: 1; /* Firefox */
+}
+  
+#contact :-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: rgb(219, 219, 219);
+
+  }
+  
+  #contact ::-ms-input-placeholder { /* Microsoft Edge */
+    color: rgb(219, 219, 219);
+
+  }
